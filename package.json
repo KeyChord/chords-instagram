@@ -1,0 +1,25 @@
+{
+  "name": "@keychord/chords-instagram",
+  "displayName": "Instagram Chords",
+  "description": "Chords for Instagram installed as a web app from Brave.",
+  "categories": [
+    "Social"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-instagram"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "^1.4.3",
+    "@types/node": "26.6.5",
+    "happy-dom": "^21.0.1"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
